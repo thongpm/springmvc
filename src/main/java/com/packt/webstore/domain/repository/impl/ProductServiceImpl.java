@@ -20,4 +20,9 @@ public class ProductServiceImpl implements IProductService {
 		return productRepository.getAllProducts();
 	}
 
+	public Product getProductById(String productID) {
+		// TODO Auto-generated method stub
+		return productRepository.getProductById(productID);
+	}
+
 }
